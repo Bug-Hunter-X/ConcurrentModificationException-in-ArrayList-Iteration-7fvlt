@@ -1,0 +1,2 @@
+# ConcurrentModificationException in Java
+This repository demonstrates a common error in Java programming: the `ConcurrentModificationException`.  The `ConcurrentModificationExceptionExample.java` file shows the buggy code, which attempts to modify an ArrayList while iterating over it with an enhanced for loop. This leads to the exception being thrown.  The solution, presented in `ConcurrentModificationExceptionSolution.java`, demonstrates how to avoid the exception using an iterator or a different approach.
